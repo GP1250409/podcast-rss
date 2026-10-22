@@ -20,6 +20,24 @@ class GeneratorTests(unittest.TestCase):
     def test_strip_html(self):
         self.assertEqual(gen_rss.strip_html('<p>A&amp;B<br/>C</p>'), 'A&B\nC')
 
+    def test_head_content_length(self):
+        response = gen_rss.subprocess.CompletedProcess([], 0, stdout=b'HTTP/2 200\r\nContent-Length: 12345\r\n\r\n')
+        with patch.object(gen_rss.subprocess, 'run', return_value=response) as run:
+            self.assertEqual(gen_rss.head_size('https://example.com/a.m4a'), 12345)
+            self.assertEqual(run.call_count, 1)
+
+    def test_head_range_fallback(self):
+        head = gen_rss.subprocess.CompletedProcess([], 0, stdout=b'HTTP/2 200\r\n\r\n')
+        ranged = gen_rss.subprocess.CompletedProcess([], 0, stdout=b'HTTP/2 206\r\nContent-Range: bytes 0-0/12345\r\nContent-Length: 1\r\n\r\n')
+        with patch.object(gen_rss.subprocess, 'run', side_effect=[head, ranged]):
+            self.assertEqual(gen_rss.head_size('https://example.com/a.m4a'), 12345)
+
+    def test_unavailable_media_fails_closed(self):
+        response = gen_rss.subprocess.CompletedProcess([], 22, stdout=b'HTTP/2 403\r\n\r\n')
+        with patch.object(gen_rss.subprocess, 'run', return_value=response):
+            with self.assertRaises(RuntimeError):
+                gen_rss.head_size('https://example.com/a.m4a')
+
     def test_generate_and_validate(self):
         podcast = {'title': 'Test & podcast', 'image': {'picUrl': 'https://example.com/cover.jpg'},
                    'author': 'Test', 'description': 'Description', 'episodes': [

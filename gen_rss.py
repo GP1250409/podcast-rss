@@ -14,13 +14,33 @@ SELF_URL = os.environ.get("SELF_URL", "")
 
 
 def fetch(url):
-    return subprocess.run(["curl", "-sL", "-A", UA, url], capture_output=True).stdout.decode("utf-8", "replace")
+    return subprocess.run(["curl", "-fsSL", "--retry", "3", "--connect-timeout", "10",
+                           "--max-time", "60", "-A", UA, url],
+                          capture_output=True, check=True).stdout.decode("utf-8", "replace")
 
 
 def head_size(url):
-    out = subprocess.run(["curl", "-sIL", "-A", UA, url], capture_output=True).stdout.decode("utf-8", "replace")
-    m = re.findall(r"(?i)^content-length:\s*(\d+)", out, re.M)
-    return int(m[-1]) if m else 0
+    common = ["curl", "-fsSL", "--retry", "2", "--connect-timeout", "10",
+              "--max-time", "30", "-A", UA]
+    head = subprocess.run(common + ["-I", url], capture_output=True)
+    out = head.stdout.decode("utf-8", "replace")
+    matches = re.findall(r"(?im)^content-length:\s*(\d+)", out)
+    if head.returncode == 0 and matches and int(matches[-1]) > 0:
+        return int(matches[-1])
+    # Some CDN edges omit Content-Length for HEAD. A one-byte GET exposes
+    # the full media size in Content-Range without downloading the episode.
+    ranged = subprocess.run(common + ["--range", "0-0", "--max-filesize", "1024",
+                                     "-D", "-", "-o", os.devnull, url], capture_output=True)
+    out = ranged.stdout.decode("utf-8", "replace")
+    total = re.findall(r"(?im)^content-range:\s*bytes\s+\d+-\d+/(\d+)", out)
+    if ranged.returncode == 0 and total:
+        return int(total[-1])
+    lengths = re.findall(r"(?im)^content-length:\s*(\d+)", out)
+    if ranged.returncode in (0, 63) and lengths and int(lengths[-1]) > 0:
+        return int(lengths[-1])
+    statuses = re.findall(r"(?im)^HTTP/\S+\s+\d+", out)
+    raise RuntimeError(f"Cannot determine enclosure size: HEAD exit={head.returncode}; "
+                       f"Range exit={ranged.returncode}; HTTP={statuses}")
 
 
 def esc(s):
@@ -83,7 +103,8 @@ def main():
   </channel>
 </rss>
 """
-    open(out_path, "w", encoding="utf-8").write(rss)
+    with open(out_path, "w", encoding="utf-8") as output:
+        output.write(rss)
     print(f"{len(items)} 期 -> {out_path}")
 
 
