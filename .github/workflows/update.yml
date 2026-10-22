@@ -20,6 +20,8 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main # 排队任务启动时读取最新分支，避免上一轮 RSS 提交导致非快进失败
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
