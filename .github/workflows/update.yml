@@ -2,7 +2,7 @@ name: update-rss
 
 on:
   schedule:
-    - cron: "0 22,4 * * *" # 北京时间 06:00 / 12:00
+    - cron: "7 22,4 * * *" # 北京时间 06:07 / 12:07（错峰；实际启动可能延迟）
   workflow_dispatch:
   push:
     branches: [main]
@@ -10,15 +10,29 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: podcast-rss-production
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Test generator
+        run: |
+          python3 -m py_compile gen_rss.py scripts/validate_rss.py
+          python3 -m unittest discover -s tests -v
       - name: Generate RSS
         env:
-          SELF_URL: https://gp1250409.github.io/podcast-rss/ai-zaozhidao.xml
-        run: python3 gen_rss.py 6a6e4a2ec654846ef0ee0795 ai-zaozhidao.xml
+          SELF_URL: https://rss.gpnet.cc.cd/ai-zaozhidao.xml
+        run: |
+          python3 gen_rss.py 6a6e4a2ec654846ef0ee0795 ai-zaozhidao.xml
+          python3 scripts/validate_rss.py ai-zaozhidao.xml
       - name: Commit
         run: |
           git config user.name "rss-bot"
@@ -30,3 +44,24 @@ jobs:
             git commit -m "update $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
+      - name: Prepare public assets only
+        run: |
+          mkdir -p dist
+          cp index.html ai-zaozhidao.xml _headers dist/
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          WRANGLER_SEND_METRICS: "false"
+        run: npx --yes wrangler@4.151.3 pages deploy dist --project-name=podcast-rss --branch=main
+      - name: Verify published Pages RSS matches generated artifact
+        run: |
+          for attempt in $(seq 1 12); do
+            if curl --fail --silent --show-error --max-time 30 "https://podcast-rss-b98.pages.dev/ai-zaozhidao.xml?run=${GITHUB_RUN_ID}&attempt=${attempt}" -o /tmp/published-rss.xml && cmp -s ai-zaozhidao.xml /tmp/published-rss.xml; then
+              python3 scripts/validate_rss.py /tmp/published-rss.xml
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "Published Pages RSS did not match the generated artifact" >&2
+          exit 1

@@ -3,10 +3,10 @@
   <channel>
     <title>ai早知道</title>
     <link>https://www.xiaoyuzhoufm.com/podcast/6a6e4a2ec654846ef0ee0795</link>
-    <atom:link href="https://gp1250409.github.io/podcast-rss/ai-zaozhidao.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rss.gpnet.cc.cd/ai-zaozhidao.xml" rel="self" type="application/rss+xml" />
     <description>播客内容原始信息来源于linux.do社区</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 22 Oct 2026 02:49:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 03:27:44 +0000</lastBuildDate>
     <itunes:author>佚名</itunes:author>
     <itunes:summary>播客内容原始信息来源于linux.do社区</itunes:summary>
     <itunes:image href="https://image.xyzcdn.net/Fl8en4NslYoRIdAKNBiIr5_pWA-O.png" />
@@ -368,7 +368,7 @@
     </item>
     <item>
       <title>AI早知道-26-10-12</title>
-      <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/ljJcl0werSrrM9YYMeXzdfDhpT5_.m4a" length="0" type="audio/mp4" />
+      <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/ljJcl0werSrrM9YYMeXzdfDhpT5_.m4a" length="8419952" type="audio/mp4" />
       <guid isPermaLink="false">6acbe560195d838e2af0531c</guid>
       <pubDate>Sun, 11 Oct 2026 20:43:47 +0000</pubDate>
       <itunes:duration>522</itunes:duration>
