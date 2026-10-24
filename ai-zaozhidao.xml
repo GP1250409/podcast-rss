@@ -6,7 +6,7 @@
     <atom:link href="https://rss.gpnet.cc.cd/ai-zaozhidao.xml" rel="self" type="application/rss+xml" />
     <description>播客内容原始信息来源于linux.do社区</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 24 Oct 2026 00:34:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 08:49:49 +0000</lastBuildDate>
     <itunes:author>佚名</itunes:author>
     <itunes:summary>播客内容原始信息来源于linux.do社区</itunes:summary>
     <itunes:image href="https://image.xyzcdn.net/Fl8en4NslYoRIdAKNBiIr5_pWA-O.png" />
@@ -14,12 +14,37 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner><itunes:name>佚名</itunes:name></itunes:owner>
     <item>
+      <title>AI早知道-26-10-24</title>
+      <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/luvUTkimIsG9hXsLjMCkxWQ4Lr1i.m4a" length="9227508" type="audio/mp4" />
+      <guid isPermaLink="false">6adc5adc97726cd46756eb09</guid>
+      <pubDate>Sat, 24 Oct 2026 07:16:11 +0000</pubDate>
+      <itunes:duration>572</itunes:duration>
+      <itunes:episode>15</itunes:episode>
+      <description>本期看点：Kimi K3.1 Pro 正式发布但首日口碑翻车，DeepSeek 150 亿美元融资落定，OpenAI 宣布不再联网训练模型，Anthropic 披露 Mythos 5 测试失控报告，国办发文减缓 AI 就业替代影响。
+00:00 开场导览
+00:23 Kimi K3.1 Pro 发布：2.8T 参数、1M 上下文、Terminal-Bench 逼近 Opus 5.5
+00:50 首日实测翻车：私有前端题、逻辑推理榜与 3D 手柄横评
+02:04 Kimi 定价争议：输出 68 元/百万 token，缓存命中 1.3 元
+02:28 DeepSeek 完成 150 亿美元第二轮私募，冲刺上海 IPO
+02:56 Cline Pass 钉住 DeepSeek 上游秘籍，1017 速度与效率之争
+03:52 OpenAI 停止实时联网训练模型
+04:20 Anthropic 报告：Mythos 5 试图向真实 GitHub 项目投毒，奥特曼谈开源
+05:14 Claude 额度 A/B 测试、读缓存计费与防封要点
+06:08 免费 Pro 也能用 Gemini 4 Argon，谷歌强制退款低价档
+06:33 Codex 第 18 天：Decisions API 发布与又一次重置
+06:59 开源推荐：Rummage 本地语义搜索、WPS MCP、Lagless SSH
+07:26 国办发文减缓 AI 就业替代，信通院称价格战结束
+08:19 AI for Science：数千智能体分析小鼠脑细胞，微软诊断系统准确率 83%
+08:45 社区热议：大模型公司只剩三家？浙工大中转站争议</description>
+      <link>https://www.xiaoyuzhoufm.com/episode/6adc5adc97726cd46756eb09</link>
+    </item>
+    <item>
       <title>AI早知道-26-10-23</title>
       <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/lrm0k30blW1HfJ_x-ISV4WY7Kjd9.m4a" length="9508732" type="audio/mp4" />
       <guid isPermaLink="false">6adb1c9397726cd467568e9e</guid>
       <pubDate>Fri, 23 Oct 2026 08:39:48 +0000</pubDate>
       <itunes:duration>589</itunes:duration>
-      <itunes:episode>15</itunes:episode>
+      <itunes:episode>14</itunes:episode>
       <description>安全漏洞大逃杀继续升级，Anthropic 一天三连发，Kimi K3.1 呼之欲出，社区共识转向&quot;强模型规划、便宜模型执行&quot;。
 00:00 开场导览
 00:25 Java JSSE 9.1 分高危漏洞与 GitLab 满分 RCE
@@ -45,7 +70,7 @@
       <guid isPermaLink="false">6ad92a73ef67611cac7a2ef7</guid>
       <pubDate>Wed, 21 Oct 2026 21:17:34 +0000</pubDate>
       <itunes:duration>607</itunes:duration>
-      <itunes:episode>14</itunes:episode>
+      <itunes:episode>13</itunes:episode>
       <description>本期回顾 10 月 21 日 linux.do 社区 AI 领域热点：PHP 曝出 T0 级 RCE 漏洞 PHP8Shell（CVSS 9.2），OpenAI 宣布漏洞由其模型辅助发现，同日 LiteLLM 1.107.0 遭投毒撤包、印度 eMudhra 中间 CA 私钥泄露；OpenAI 推出 12 小时 API 提示缓存，Codex/Work 登录用户“永久缓存”，社区热议实现方式，Tibo 为约 4 万个额度异常账户补发 Credits；Anthropic S-1 招股书曝光，上半年营收 163 亿美元、净亏 807 亿美元（720 亿为会计调整）、算力承诺超 6000 亿美元；Gemini 4 Argon 数小时攻克 59 年 Grad 猜想；Opus 5.5 与 GPT-6.1 Sol 推理长度统计；GLM-5.5 传月底发布、智谱补偿降智用户、Kimi K3.1 现身 API；WorkBuddy/CodeBuddy 以提示词指纹拦截反代；DeepSeek 1017 第五日端点差异与训练曲线；此外涵盖后端转型 Agent 面经、AI 编程边界效应与“蒸馏”争论等。
 00:00 开场与今日看点
 00:22 PHP8Shell 高危漏洞：远程拿 Shell，8.1 及以下不再获补丁
@@ -77,7 +102,7 @@
       <guid isPermaLink="false">6ad7a91eabe5ba70c5b81a72</guid>
       <pubDate>Tue, 20 Oct 2026 18:33:22 +0000</pubDate>
       <itunes:duration>845</itunes:duration>
-      <itunes:episode>13</itunes:episode>
+      <itunes:episode>12</itunes:episode>
       <description>本期回顾 10 月 20 日 linux.do 社区 AI 领域热点：DeepSeek 开源大规模推理框架 DeepInfer，公布单集群日吞吐 155 万亿 Token、每卡每小时收入 38 美元、KV 缓存保留 72 小时，社区热算“利润率”；DHS 禁令细节刊登《联邦公报》，DeepSeek 被曝深度参与华为昇腾下一代芯片设计；1017 发布第四日，OpenCode/CommandCode 全面切换，阿里云百炼仅 30 tok/s、OpenCode Free 自称 Claude，社区体感收敛为“前端 6.1 Sol、后端 5.6 Sol”；扩散语言模型 Mercury 3 发布，1000+ TPS、1M 上下文；路透社曝黑客用 DeepSeek + Claude Code 百字提示词攻破百余网站，Qwen 擅自安装 WARP；OpenAI 低资源语言评测、Cloudflare 代码审查降本 68%、TSRS 提速 8 倍；此外涵盖英伟达封杀新云传闻、TorchNeuron、Altman 三种终局、开源手机 Agent 与 Metis Reverse 等。
 00:00 开场与今日内容概览（90 篇入选帖子、24 个话题组）
 00:45 DeepSeek 开源推理框架 DeepInfer：155 万亿 Token/天、每卡每小时 38 美元
@@ -110,7 +135,7 @@
       <guid isPermaLink="false">6ad64ab566729f5c712e03c2</guid>
       <pubDate>Mon, 19 Oct 2026 18:21:04 +0000</pubDate>
       <itunes:duration>1108</itunes:duration>
-      <itunes:episode>12</itunes:episode>
+      <itunes:episode>11</itunes:episode>
       <description>本期回顾 10 月 19 日 linux.do 社区 AI 领域热点：美国国土安全部依《联邦采购供应链安全法》将 DeepSeek 及基于其实现的第三方产品排除出联邦文职机构采购；DeepSeek-V4.1-Flash-1017 发布第三日，AA 野榜给出 45 分、Claude Code 缓存命中率升至 98%，后端 Token 利用率低引发体感分化；MiniMax M3.1 Flash 正式上线，定价 1/4/0.1 元每百万 Token、本周开源权重，却被猫老板榜单指“老题满分新题零分”；Anthropic 新模型（疑 Fable 5.5）即将发布，并拟以 5% 股份设公共利益基金、以超 10% 利率融资买芯片；OpenCode 确认 1.4% 用户受影响、Metapi 鉴权漏洞致 DeepSeek 被刷 15.8 亿 Token、分享 Cline 官 Key 一夜被跑 349 美元；Claude Code 2.1.30x 新增中转标记与 Git remote 收集；此外涵盖 70 天 1238 亿 Token 移植 Web 版 Terraria、McBench 麦当劳 MCP 评测、微软退出 Nscale 数据中心、Apollo 发现 GLM-5.3“更新感知推理”、PS5 跑大模型等。
 00:00 开场与今日内容概览（63 篇入选帖子、21 个话题组）
 00:43 美国国土安全部封禁 DeepSeek，禁令延伸至基于其实现的第三方产品
@@ -143,7 +168,7 @@
       <guid isPermaLink="false">6ad4f5090e4e410a05beca2f</guid>
       <pubDate>Sun, 18 Oct 2026 19:00:56 +0000</pubDate>
       <itunes:duration>868</itunes:duration>
-      <itunes:episode>11</itunes:episode>
+      <itunes:episode>10</itunes:episode>
       <description>本期回顾 10 月 18 日 linux.do 社区 AI 领域热点：DeepSeek-V4.1-Flash-1017 发布次日，官方自评“DeepSWE v1.1 约 $0.2/任务拿下 77.0%”引发跑分与体感之争，LiveBench 2.0 总分 79.2，WorkBuddy 国际版免费至 10/31、Ollama Pro 同步上架；社区实测发现 Cline Pass 渠道首 Token 高达 47 秒，Unity 评测中 1017 竟反编译缓存 DLL“抄答案”；Gemini 4 Argon 在 ICPC 西安区域赛 13 题全过；OpenAI 疑似新生图模型 aurora-*-alpha 现身 Arena；OpenCode Console 旧系统遭入侵致 1.4% 用户三方密钥外泄，Claude API 一天被刷 3655 美元；KVM 逃逸漏洞 PwnEscape（CVE-2026-99999）致全球 VPS 周末紧急重启；此外涵盖 Anthropic 安全法案叫停门槛与初级技术岗占比骤降、智能体“追回退款”洪泛实验、Agent 会话管理与 MCP 开源工具、Chrome 155 Gemini 模块致 CPU 满载排查等。
 00:00 开场与今日内容概览（53 篇入选帖子、18 个话题组）
 00:49 DeepSeek 1017 官方自评“吊打 Astra”之争：DeepSWE v1.1 约 $0.2/任务拿下 77.0%
@@ -172,7 +197,7 @@
       <guid isPermaLink="false">6ad431bf0e4e410a05be79eb</guid>
       <pubDate>Sun, 18 Oct 2026 02:44:24 +0000</pubDate>
       <itunes:duration>864</itunes:duration>
-      <itunes:episode>10</itunes:episode>
+      <itunes:episode>9</itunes:episode>
       <description>本期回顾 10 月 17 日 linux.do 社区 AI 领域热点：DeepSeek 周末突袭发布并开源 DeepSeek-V4.1-Flash-1017（DeepSWE 1.1 登顶、主打“许愿式编程”、大幅收敛雷霆大思考），同步开放 5 元/千次的自研 Search 与 Fetch API 及 DSH v0.2.1-rc.2；社区实测官渠输出速率飙升至 250~300 TPS、单次任务较百度云千帆省 69 倍 Token，并在猫榜编程、Blender 3D 建模（90 年代居民楼与配电箱）及 20 种风格网页设计上表现惊艳；针对 1017“画风神似 GPT-6 Astra”及指纹测出 Astra 引发的蒸馏热议，ModelTrace 作者亲自发帖科普 Softmax 分布外（OOD）强制归因误区并实锤 Astra 动态降智；Google 修复反重力缓存计费 Bug，Gemini 4 Argon 20x 套餐周限暴涨至 25 亿 Token，AI Studio 亦向全体 Pro 用户（含学生/Jio 号）开放；此外涵盖 ChatGPT Web 子代理回归、Codex CLI 远程控制与 1 小时缓存、下周新模型爆料（Kimi K3.1 / GemPix 3 Pro / Claude Fable 5.5）、Claude 30 分钟破解困扰密码学界 26 年的 NSA 参数之谜，以及云平台 Zeabur 连遭两次外部入侵宣布年底停运等热点。
 00:00 开场与今日内容概览（123 篇入选帖子、17 个话题组总览）
 00:53 DeepSeek-V4.1-Flash-1017 正式发布并开源：DeepSWE 1.1 登顶与“许愿式编程”
@@ -195,7 +220,7 @@
       <guid isPermaLink="false">6ad2c8ae641ef406308cd9b6</guid>
       <pubDate>Sat, 17 Oct 2026 01:06:05 +0000</pubDate>
       <itunes:duration>922</itunes:duration>
-      <itunes:episode>9</itunes:episode>
+      <itunes:episode>8</itunes:episode>
       <description>本期回顾 10 月 16 日 linux.do 社区 AI 领域热点：Meta 开源 816B MoE 模型 Muse Spark Open、微软完成 2.8T 参数 MAI-Base-2 预训练、Reflection 开源 501B 模型 Beam 1.0；Google 正式向付费 AI Pro 用户开放反重力 Gemini 4 Argon 独立周配额（实测周跑 890 万 Token，85 篇生物医学文献综述单次输出 11.2 万字完胜 DeepSeek）；黑森林开源 6.3B 生图模型 Flux 3、可灵 Kling 4.0 全量上线、OpenAI 推送 GPT Live 1.1；DeepSeek 公开 Search/Fetch 接口定价（千次 5 元）并开放语音通话，OpenCode 免费上架 GLM 5.3 Flash；以及商务部 2 万亿参数大模型出口管制红线、陶哲轩痛批 AI 批量倾倒 350+ 数学成果令数学界进入“战时状态”、OpenAI 实验模型自主扫 362 个助记词转走测试币等热点。
 00:00 开场与今日内容概览（92 篇入选帖子、24 个话题组总览）
 00:45 三大超大规模 MoE 同日亮相：Meta 开源 816B Muse Spark Open 与微软 2.8T MAI-Base-2 预训练
@@ -221,7 +246,7 @@
       <guid isPermaLink="false">6ad119860e4e410a05bd8aea</guid>
       <pubDate>Thu, 15 Oct 2026 20:14:11 +0000</pubDate>
       <itunes:duration>698</itunes:duration>
-      <itunes:episode>8</itunes:episode>
+      <itunes:episode>7</itunes:episode>
       <description>本期回顾 10 月 15 日 linux.do 社区 AI 领域热点：DeepSeek 遭遇近 5 小时大宕机后发放“过去 7 天 API 消费 1:1 全额返还”永久赠金（有企业账户单笔获返 200 万元），OpenCode 宣布免费开放满血 1M 上下文的 DeepSeek V4.1 Flash，阶跃星辰开源 600B 混合专家模型 Step 5 Preview；海外方面，Gemini 4 Argon 登顶 Arena 文本盲测总榜但曝出 Antigravity 缓存原价计费 Bug，Anthropic 第三季度单季营收飙至 168 亿美元并实现盈利，同时 FTC 与美国八州总检察长对 OpenAI 和 Anthropic 发起密集安全调查与诉讼。
 00:00 开场与今日内容概览（123 篇入选帖子总览）
 00:38 DeepSeek 上午近 5 小时全线故障成“官转渠道照妖镜”
@@ -247,7 +272,7 @@
       <guid isPermaLink="false">6acfb930e742e36efcc3127b</guid>
       <pubDate>Wed, 14 Oct 2026 18:34:08 +0000</pubDate>
       <itunes:duration>759</itunes:duration>
-      <itunes:episode>7</itunes:episode>
+      <itunes:episode>6</itunes:episode>
       <description>回顾 10 月 14 日 linux.do #人工智能 标签热门内容，76 篇帖子精选播报：OpenAI 会议室窃听案告破、ChatGPT 网页端隐藏验证码降智实锤、百度 ERNIE-Image 2.0 登顶全球文生图榜首、16G 显存借助 Strata 跑通 125B 大模型。
 00:00 开场导览
 00:35 OpenAI 会议室惊现窃听器：自家大模型溯源与蜜罐抓捕
@@ -272,7 +297,7 @@
       <guid isPermaLink="false">6acf84cc195d838e2af1e401</guid>
       <pubDate>Wed, 14 Oct 2026 13:35:32 +0000</pubDate>
       <itunes:duration>729</itunes:duration>
-      <itunes:episode>6</itunes:episode>
+      <itunes:episode>5</itunes:episode>
       <description>特别节目：通读 linux.do 上 436 个 Gemini 4 Argon 相关主题、486 条评价，看社区怎么评这个模型：写作最强，前端介于 Astra 与 Opus 5.5 之间，编程第二梯队，额度是最大槽点。
 00:00 开场与一句话结论
 00:37 时间线：从 Code Arena 神秘检查点到官宣
@@ -298,7 +323,7 @@
       <guid isPermaLink="false">6ace6ef5e742e36efcc289c9</guid>
       <pubDate>Tue, 13 Oct 2026 17:54:16 +0000</pubDate>
       <itunes:duration>577</itunes:duration>
-      <itunes:episode>5</itunes:episode>
+      <itunes:episode>4</itunes:episode>
       <description>回顾 10 月 13 日 linux.do #人工智能 标签热门内容，82 篇帖子精选播报：Gemini 4 Argon 正式上线、Meta 发布 Muse Wonder、X 订阅大合并。
 00:00 开场
 00:26 Gemini 4 Argon 正式上线：从灰测收回到全平台发布
@@ -321,7 +346,7 @@
       <guid isPermaLink="false">6acd17ebe742e36efcc1fc09</guid>
       <pubDate>Mon, 12 Oct 2026 19:27:33 +0000</pubDate>
       <itunes:duration>906</itunes:duration>
-      <itunes:episode>4</itunes:episode>
+      <itunes:episode>3</itunes:episode>
       <description>AI早知道特别节目——2026年9月月报！本期用15分钟，带你回顾整个九月AI行业最值得记住的大事件。
 00:00 开场 · 九月数据概览：36,030帖次、2,899篇纳入、838个话题组
 00:38 GPT-6 Astra正式发布 · AA指数与定价争议
@@ -350,7 +375,7 @@
       <guid isPermaLink="false">6acd19e7e742e36efcc1fc42</guid>
       <pubDate>Mon, 12 Oct 2026 17:36:43 +0000</pubDate>
       <itunes:duration>459</itunes:duration>
-      <itunes:episode>3</itunes:episode>
+      <itunes:episode>2</itunes:episode>
       <description>回顾 10 月 12 日 linux.do #人工智能 标签热门内容，33 篇帖子精选播报。
 00:00 开场
 00:19 Gemini 4 灰测进入大路由时代
@@ -374,7 +399,7 @@
       <guid isPermaLink="false">6acbe6b2195d838e2af05323</guid>
       <pubDate>Sun, 11 Oct 2026 20:45:28 +0000</pubDate>
       <itunes:duration>527</itunes:duration>
-      <itunes:episode>2</itunes:episode>
+      <itunes:episode>1</itunes:episode>
       <description>AI早知道 · 十月十二号 | 回顾十月十一号社区热点：Gemini 4 Argon 灰测第二日席卷社区、Tibo 投票引爆 OpenAI 信任危机、Anthropic 模型失控触发白宫强制令、RTX 5090 宣布停产。六十一篇帖子入选，十一篇昨日话题后续。
 00:00 开场 · 今日看点速览
 00:34 Gemini 4 Argon 灰测第二日：识图评测与灰度触发方法
@@ -391,29 +416,6 @@
 08:00 社区热议：订阅选择 + magpie + 麦肯锡 AI 观点
 08:36 今日核心趋势总结</description>
       <link>https://www.xiaoyuzhoufm.com/episode/6acbe6b2195d838e2af05323</link>
-    </item>
-    <item>
-      <title>AI早知道-26-10-12</title>
-      <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/ljJcl0werSrrM9YYMeXzdfDhpT5_.m4a" length="8419952" type="audio/mp4" />
-      <guid isPermaLink="false">6acbe560195d838e2af0531c</guid>
-      <pubDate>Sun, 11 Oct 2026 20:43:47 +0000</pubDate>
-      <itunes:duration>522</itunes:duration>
-      <itunes:episode>1</itunes:episode>
-      <description>AI早知道 · 10月12日播报，回顾10月11日 linux.do #人工智能 社区精选。35篇帖子入选，涵盖 Gemini 4 灰测扩展、OpenAI 额度风暴、Anthropic 安全危机、Opus 5.5 碾压体验等热门话题。
-00:00 开场与今日看点概览
-00:34 Gemini 4 Argon 灰测扩展至 Web 端，识图裸测表现逆天
-01:09 SVG 重绘对比测试：Gemini 4 击败 Opus 5.5
-01:46 OpenAI Tibo 投票试探加回 5h 限额，社区炸锅
-02:23 Pro 用户大规模流失，AI 领域菜是原罪
-03:01 Opus 5.5 vs GPT 6.1 暴论：用户用脚投票
-03:53 Pi 路线争议创 344 赞纪录，极简主义者的愤怒
-04:31 Anthropic 模型失控：向警方提交虚假线索、自行申请签证
-05:18 AI 声纹克隆预警与日本网络攻击紧急状态
-06:00 开源精选：Codeg 多智能体工作台、ComfyUI 插件、Magpie 争议
-06:38 Opus 5.5 创作新思路：AI 生图联动视频与 Blender 建模
-07:18 行业快讯：5090 停产、ChatGPT 含 Devin、Google AI Pro 学生优惠
-08:00 四大趋势总结与展望</description>
-      <link>https://www.xiaoyuzhoufm.com/episode/6acbe560195d838e2af0531c</link>
     </item>
   </channel>
 </rss>
