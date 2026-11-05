@@ -6,7 +6,7 @@
     <atom:link href="https://rss.gpnet.cc.cd/ai-zaozhidao.xml" rel="self" type="application/rss+xml" />
     <description>播客内容原始信息来源于linux.do社区</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 05 Nov 2026 02:19:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:12:36 +0000</lastBuildDate>
     <itunes:author>佚名</itunes:author>
     <itunes:summary>播客内容原始信息来源于linux.do社区</itunes:summary>
     <itunes:image href="https://image.xyzcdn.net/Fl8en4NslYoRIdAKNBiIr5_pWA-O.png" />
@@ -14,12 +14,38 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner><itunes:name>佚名</itunes:name></itunes:owner>
     <item>
+      <title>AI早知道-26-11-05</title>
+      <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/lrqKYCjHzX19bwwi_NBxzOU15hd8.m4a" length="8821404" type="audio/mp4" />
+      <guid isPermaLink="false">6aec1d7b123b1af647f1300d</guid>
+      <pubDate>Thu, 05 Nov 2026 06:10:47 +0000</pubDate>
+      <itunes:duration>547</itunes:duration>
+      <itunes:episode>15</itunes:episode>
+      <description>腾讯 Hy4 正式版与 Kimi K3.1 Pro 开源权重同日登场，Anthropic 连发三条新闻，Antigravity 的百万上下文被扒出只有 256K。
+00:00 开场导览
+00:24 腾讯混元 Hy4 正式版：770B 多模态，官方口径与实测落差
+01:17 WorkBuddy 限免与社区评价
+01:37 Kimi K3.1 Pro 开源 2.8T 权重，稀疏注意力与百万上下文
+02:04 Max 套餐用量实测：每月约 48 亿 Token
+02:28 Grok Bot Ultra 指纹检测疑似 Kimi 底模
+02:55 Anthropic：开源 FlashProve、放宽游戏限制、Cat Wu 离职
+03:45 权重空间编程降温：八组实验的真实边界
+04:39 Antigravity 百万上下文虚标：256K 硬编码与解锁档位
+05:05 Ultra 20x 额度与速度实测
+05:35 Gemini 4 Argon 幻觉争议：编程落后一代，文本第一
+06:02 DeepSeek V4.1 Flash 当执行模型翻车
+06:28 GLM-5.3 口碑走高：漏洞提权成功
+06:53 GPT 防御性编程之争与多模型 Review 死循环
+07:44 工具安全排雷：ZCode 写爆 C 盘、Postman 篡改配置、GitHub 封号解封
+08:29 算力动态：甲骨文弃租腾讯，RTX 芯片交付仅 1%</description>
+      <link>https://www.xiaoyuzhoufm.com/episode/6aec1d7b123b1af647f1300d</link>
+    </item>
+    <item>
       <title>AI早知道-26-11-04</title>
       <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/llb9tPC_TK4voubThJEviKMCJLYj.m4a" length="10184200" type="audio/mp4" />
       <guid isPermaLink="false">6aea185497726cd4675c5516</guid>
       <pubDate>Tue, 03 Nov 2026 17:25:01 +0000</pubDate>
       <itunes:duration>631</itunes:duration>
-      <itunes:episode>15</itunes:episode>
+      <itunes:episode>14</itunes:episode>
       <description>本期回顾 11 月 3 日 linux.do 人工智能社区热点：MIT 提出“权重空间编程”由 GPT-6 Astra 直接读写参数修复小模型缺陷，OpenAI 开源 PB 级 Git 后端 Pando 并灰度合并 ChatGPT 与 Codex 额度，Anthropic 推出消息线程降低 35% 长上下文首字延迟，DeepSeek 传 V5 采用昇腾训练且 V4.1-Flash 多轮工程短板遭深度解剖，以及 Weave Office、Kitten 安卓副屏助手、LucentThinker 等重磅开源项目与全国首例盗刷 AI 算力获刑案。
 00:00 开场导览
 00:26 MIT 权重空间编程：GPT-6 Astra 直接修改权重令小模型数学翻 6 倍
@@ -42,7 +68,7 @@
       <guid isPermaLink="false">6ae9923997726cd4675c10b1</guid>
       <pubDate>Tue, 03 Nov 2026 07:53:53 +0000</pubDate>
       <itunes:duration>556</itunes:duration>
-      <itunes:episode>14</itunes:episode>
+      <itunes:episode>13</itunes:episode>
       <description>DeepSeek Harness 提出超级智能体架构，社区涌现多端编排开源项目；OpenAI 把 Dots 改为多模型路由，李佳琦直播间开卖千问 Token，Anthropic 更新招股书并禁止订阅转售，马斯克承认 Grok Bot 成本难以为继。
 00:00 开场导览
 00:22 DSH 超级智能体架构：多任务上限取决于人的注意力
@@ -68,7 +94,7 @@
       <guid isPermaLink="false">6ae76da9c96c8942ec15b084</guid>
       <pubDate>Sun, 01 Nov 2026 16:57:04 +0000</pubDate>
       <itunes:duration>677</itunes:duration>
-      <itunes:episode>13</itunes:episode>
+      <itunes:episode>12</itunes:episode>
       <description>本期聚焦 OpenAI 12 月统一 Token 额度池定案与 GPT-6.2-Astra 大比例灰度、Anthropic 服务端强推禁复刻游戏与逆向工程新规、Unsloth 开源 748B DeepSeek V4.1-Flash GGUF 量化包、削减 85% 内存的 MCP 托管工具 MCPcell，以及 Astra 与 Opus 5.5 在 Word 批注模式下互审论文等硬核实战。
 00:00 开场导览
 00:25 OpenAI 官宣 12 月起合并聊天与编程额度，向 Plus 发重置卡
@@ -93,7 +119,7 @@
       <guid isPermaLink="false">6ae7208597726cd4675afb6e</guid>
       <pubDate>Sun, 01 Nov 2026 11:26:17 +0000</pubDate>
       <itunes:duration>652</itunes:duration>
-      <itunes:episode>12</itunes:episode>
+      <itunes:episode>11</itunes:episode>
       <description>本期回顾 10 月 31 日 Linux Do 社区人工智能技术热点：DeepSeek Harness 提出 Super-agent 架构并开源原型，苹果国行 Apple 智能官宣 11 月 4 日开测并接入阿里千问，OpenAI 敲定 12 月额度池合并细则并上线生命科学模型 Rosalind，以及 AA 幻觉榜方法论争鸣、客户端逆向剖析与多起 AI 安全事件。
 00:00 开场导览
 00:25 DeepSeek Harness 提出 Super-agent 架构并开源原型
@@ -118,7 +144,7 @@
       <guid isPermaLink="false">6ae4e2bec96c8942ec14efa2</guid>
       <pubDate>Fri, 30 Oct 2026 18:36:37 +0000</pubDate>
       <itunes:duration>585</itunes:duration>
-      <itunes:episode>11</itunes:episode>
+      <itunes:episode>10</itunes:episode>
       <description>本期回顾 10 月 30 日人工智能社区核心动态：OpenAI 宣布 Pro 额度翻倍但 12 月起合并 ChatGPT 与 Codex 额度池；DeepSeek 灰测需强实名认证的 Cyber 网络安全模型并传出 1055 亿元二轮融资；Anthropic 取消 Ultra 档 5 小时限制，而 Cursor 扩展市场伪造插件与五角大楼泄密事件同日敲响安全警钟。
 00:00 开场导览
 00:24 OpenAI Pro 额度翻倍，12 月起 ChatGPT 与 Codex 共用限额池
@@ -139,7 +165,7 @@
       <guid isPermaLink="false">6ae39574c96c8942ec146f8c</guid>
       <pubDate>Thu, 29 Oct 2026 19:28:02 +0000</pubDate>
       <itunes:duration>587</itunes:duration>
-      <itunes:episode>10</itunes:episode>
+      <itunes:episode>9</itunes:episode>
       <description>本期聚焦谷歌 Gemini 4 Carbon 登顶多榜与新代号 Uranium 曝光、OpenAI Pro 限额翻倍并全额返还 API 额度、国产模型剥离网安攻击能力、Codex 误删 150GB D 盘惨案与开源防御工具，以及职场 Token 考核怪象。
 00:00 开场导览
 00:27 Gemini 4 Carbon 登顶多榜：17 项基准 15 项第一
@@ -164,7 +190,7 @@
       <guid isPermaLink="false">6ae23239c96c8942ec13dec7</guid>
       <pubDate>Wed, 28 Oct 2026 19:03:40 +0000</pubDate>
       <itunes:duration>458</itunes:duration>
-      <itunes:episode>9</itunes:episode>
+      <itunes:episode>8</itunes:episode>
       <description>本期聚焦大模型持续学习新机制、智能体工程落地演进以及评测与安全风向。
 00:00 开场导览
 00:25 Google“睡眠”持续学习框架：打破灾难性遗忘
@@ -189,7 +215,7 @@
       <guid isPermaLink="false">6ae0f45097726cd46758bc4a</guid>
       <pubDate>Tue, 27 Oct 2026 19:01:17 +0000</pubDate>
       <itunes:duration>531</itunes:duration>
-      <itunes:episode>8</itunes:episode>
+      <itunes:episode>7</itunes:episode>
       <description>Anthropic 招股书披露封号用户贡献 5%～7% 营收，GPT-6.1 Terra 次日实测快而便宜却会“走捷径”，Qwen 外传数据指控被第三方复现反转。
 00:00 开场导览
 00:23 Anthropic 招股书：违规用户贡献前九个月 5%～7% 营收
@@ -217,7 +243,7 @@
       <guid isPermaLink="false">6adfc95897726cd46758227a</guid>
       <pubDate>Mon, 26 Oct 2026 22:14:12 +0000</pubDate>
       <itunes:duration>766</itunes:duration>
-      <itunes:episode>7</itunes:episode>
+      <itunes:episode>6</itunes:episode>
       <description>本期聚焦 OpenAI GPT-6.1 Terra 发布与实测、Anthropic 递交纳斯达克 S-1 招股书（半年营收 163 亿美元、亏损 807 亿）、Google AI 与 Kimi 订阅配额机制拆解、Strata 量化 EAR 指标实测与 RTX 4060 笔记本算力解锁、WorkBuddy 隐藏倍率反推，以及微软医疗 AI 登上《Science》正刊与社区热门讨论。
 00:00 开场导览
 00:26 GPT-6.1 Terra 上线：价格砍半，不到 1 美元追平旗舰跑分
@@ -241,7 +267,7 @@
       <guid isPermaLink="false">6ade5d3797726cd467578a94</guid>
       <pubDate>Sun, 25 Oct 2026 20:17:31 +0000</pubDate>
       <itunes:duration>566</itunes:duration>
-      <itunes:episode>6</itunes:episode>
+      <itunes:episode>5</itunes:episode>
       <description>Kimi K3.1 Pro 迎来猫老板深度评测却口碑两极，Codex CLI 0.164 修复缓存 Bug 命中率飙升，BOSS直聘开源 Nanbeige4.3-33B，外加三家订阅计费黑盒反推与 30 系显卡算力解锁实测。
 00:00 开场导览
 00:23 Kimi K3.1 Pro 猫老板评测：逻辑榜中位分 61.65
@@ -266,7 +292,7 @@
       <guid isPermaLink="false">6adcf2e7c96c8942ec11ae3f</guid>
       <pubDate>Sat, 24 Oct 2026 18:20:36 +0000</pubDate>
       <itunes:duration>600</itunes:duration>
-      <itunes:episode>5</itunes:episode>
+      <itunes:episode>4</itunes:episode>
       <description>本期看点：Kimi K3.1 Pro 宣发话术遭博主公开、额度与跑分争议延续，OpenAI 客服承认自动检查期间临时限流，GLM-5.3 Flash 在 DSH 里误删整个用户目录，exe-reverse 逆向技能发布，三星电视与谷歌隐私政策引关注。
 00:00 开场导览
 00:23 Kimi K3.1 Pro 宣发翻车：KOL 话术模板被公开
@@ -293,7 +319,7 @@
       <guid isPermaLink="false">6adc5adc97726cd46756eb09</guid>
       <pubDate>Sat, 24 Oct 2026 07:16:11 +0000</pubDate>
       <itunes:duration>572</itunes:duration>
-      <itunes:episode>4</itunes:episode>
+      <itunes:episode>3</itunes:episode>
       <description>本期看点：Kimi K3.1 Pro 正式发布但首日口碑翻车，DeepSeek 150 亿美元融资落定，OpenAI 宣布不再联网训练模型，Anthropic 披露 Mythos 5 测试失控报告，国办发文减缓 AI 就业替代影响。
 00:00 开场导览
 00:23 Kimi K3.1 Pro 发布：2.8T 参数、1M 上下文、Terminal-Bench 逼近 Opus 5.5
@@ -318,7 +344,7 @@
       <guid isPermaLink="false">6adb1c9397726cd467568e9e</guid>
       <pubDate>Fri, 23 Oct 2026 08:39:48 +0000</pubDate>
       <itunes:duration>589</itunes:duration>
-      <itunes:episode>3</itunes:episode>
+      <itunes:episode>2</itunes:episode>
       <description>安全漏洞大逃杀继续升级，Anthropic 一天三连发，Kimi K3.1 呼之欲出，社区共识转向&quot;强模型规划、便宜模型执行&quot;。
 00:00 开场导览
 00:25 Java JSSE 9.1 分高危漏洞与 GitLab 满分 RCE
@@ -344,7 +370,7 @@
       <guid isPermaLink="false">6ad92a73ef67611cac7a2ef7</guid>
       <pubDate>Wed, 21 Oct 2026 21:17:34 +0000</pubDate>
       <itunes:duration>607</itunes:duration>
-      <itunes:episode>2</itunes:episode>
+      <itunes:episode>1</itunes:episode>
       <description>本期回顾 10 月 21 日 linux.do 社区 AI 领域热点：PHP 曝出 T0 级 RCE 漏洞 PHP8Shell（CVSS 9.2），OpenAI 宣布漏洞由其模型辅助发现，同日 LiteLLM 1.107.0 遭投毒撤包、印度 eMudhra 中间 CA 私钥泄露；OpenAI 推出 12 小时 API 提示缓存，Codex/Work 登录用户“永久缓存”，社区热议实现方式，Tibo 为约 4 万个额度异常账户补发 Credits；Anthropic S-1 招股书曝光，上半年营收 163 亿美元、净亏 807 亿美元（720 亿为会计调整）、算力承诺超 6000 亿美元；Gemini 4 Argon 数小时攻克 59 年 Grad 猜想；Opus 5.5 与 GPT-6.1 Sol 推理长度统计；GLM-5.5 传月底发布、智谱补偿降智用户、Kimi K3.1 现身 API；WorkBuddy/CodeBuddy 以提示词指纹拦截反代；DeepSeek 1017 第五日端点差异与训练曲线；此外涵盖后端转型 Agent 面经、AI 编程边界效应与“蒸馏”争论等。
 00:00 开场与今日看点
 00:22 PHP8Shell 高危漏洞：远程拿 Shell，8.1 及以下不再获补丁
@@ -369,39 +395,6 @@
 09:25 为 DeepSeek 自豪的长文与“蒸馏 GPT”争论
 09:56 结尾总结</description>
       <link>https://www.xiaoyuzhoufm.com/episode/6ad92a73ef67611cac7a2ef7</link>
-    </item>
-    <item>
-      <title>AI早知道-26-10-21</title>
-      <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/lqwTubc7slNwHVWkONET2GjW3RzO.m4a" length="13638832" type="audio/mp4" />
-      <guid isPermaLink="false">6ad7a91eabe5ba70c5b81a72</guid>
-      <pubDate>Tue, 20 Oct 2026 18:33:22 +0000</pubDate>
-      <itunes:duration>845</itunes:duration>
-      <itunes:episode>1</itunes:episode>
-      <description>本期回顾 10 月 20 日 linux.do 社区 AI 领域热点：DeepSeek 开源大规模推理框架 DeepInfer，公布单集群日吞吐 155 万亿 Token、每卡每小时收入 38 美元、KV 缓存保留 72 小时，社区热算“利润率”；DHS 禁令细节刊登《联邦公报》，DeepSeek 被曝深度参与华为昇腾下一代芯片设计；1017 发布第四日，OpenCode/CommandCode 全面切换，阿里云百炼仅 30 tok/s、OpenCode Free 自称 Claude，社区体感收敛为“前端 6.1 Sol、后端 5.6 Sol”；扩散语言模型 Mercury 3 发布，1000+ TPS、1M 上下文；路透社曝黑客用 DeepSeek + Claude Code 百字提示词攻破百余网站，Qwen 擅自安装 WARP；OpenAI 低资源语言评测、Cloudflare 代码审查降本 68%、TSRS 提速 8 倍；此外涵盖英伟达封杀新云传闻、TorchNeuron、Altman 三种终局、开源手机 Agent 与 Metis Reverse 等。
-00:00 开场与今日内容概览（90 篇入选帖子、24 个话题组）
-00:45 DeepSeek 开源推理框架 DeepInfer：155 万亿 Token/天、每卡每小时 38 美元
-01:24 线上运行数据：缓存命中率 96%、KV 缓存保留 72 小时、吐字 230 tps
-01:52 “1000% 利润率”之争：按 GB200 重算约 500%，训练成本才是大头
-02:32 开源意义：第三方部署有望对齐官方，“别打扰我训练 AGI”
-02:56 DHS 禁令细节：命令 2026-01 刊登《联邦公报》，不约束私营部门
-03:26 DeepSeek 深度参与华为昇腾下一代芯片设计
-03:59 1017 第四日：OpenCode/CommandCode 切换与满血渠道清单
-04:36 部署质量问题：百炼 30 tok/s 遭 300 秒掐断、OpenCode Free 自称 Claude、ClinePass 上下文不稳
-05:09 体感定位“前端 6.1 Sol、后端 5.6 Sol”与“猛猛干”吐槽
-05:35 用法分享：GPT 规划 + DeepSeek 执行，256K 上下文以内更稳
-06:10 10 元逆向鼠标驱动：91.7 万字思考、5 个子智能体与 Kimi K3 救场
-06:53 Mercury 3 发布：扩散语言模型 1000+ TPS、1M 上下文、$0.2/$0.7
-07:28 实测：58 秒鹈鹕、一秒四五个工具调用、糖果问题 31% 正确率
-08:00 路透社独家：百字提示词驱动 AI 攻破百余网站，总花费 5000 美元
-08:36 Qwen 擅自安装 WARP、微软称 Agent 是“新内部人员”、Broadcom WPS 漏洞
-09:16 大厂工程实践：OpenAI MultiLangBench 87.4%、Cloudflare 审查降本 68%、TSRS 提速 8 倍
-10:12 芯片与产业：英伟达封杀新云传闻、TorchNeuron、Tenstorrent 估值 62 亿、Altman 三种终局
-10:59 话题后续：Anthropic 新模型与法案改写、OpenAI 窃听案拒绝保释、Gemini 知识截止日期
-11:45 开源项目：开源豆包手机、Eta、阶跃手机拆解、Metis Reverse 与 rtk
-12:31 Reprise 用真实任务回放测模型，AA 榜单是否可信
-13:02 社区讨论：Anthropic 一家独大？反代薅羊毛反思与 Gemini 企业版试用扣费避坑
-13:44 结尾总结</description>
-      <link>https://www.xiaoyuzhoufm.com/episode/6ad7a91eabe5ba70c5b81a72</link>
     </item>
   </channel>
 </rss>
