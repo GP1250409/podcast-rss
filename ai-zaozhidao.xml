@@ -6,7 +6,7 @@
     <atom:link href="https://rss.gpnet.cc.cd/ai-zaozhidao.xml" rel="self" type="application/rss+xml" />
     <description>播客内容原始信息来源于linux.do社区</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 27 Nov 2026 04:09:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 03:50:57 +0000</lastBuildDate>
     <itunes:author>佚名</itunes:author>
     <itunes:summary>播客内容原始信息来源于linux.do社区</itunes:summary>
     <itunes:image href="https://image.xyzcdn.net/Fl8en4NslYoRIdAKNBiIr5_pWA-O.png" />
@@ -14,12 +14,37 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner><itunes:name>佚名</itunes:name></itunes:owner>
     <item>
+      <title>AI早知道-26-11-28</title>
+      <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/lkbp1c4vRRqWYrZ6dzaVS743mOaD.m4a" length="12502572" type="audio/mp4" />
+      <guid isPermaLink="false">6b09bd502e6aec980142463d</guid>
+      <pubDate>Fri, 27 Nov 2026 18:20:02 +0000</pubDate>
+      <itunes:duration>775</itunes:duration>
+      <itunes:episode>15</itunes:episode>
+      <description>本期回顾 11 月 27 日 linux.do 人工智能社区热点：Google AI Ultra 率先向开源代理 pi 开放原生订阅、谷歌黑五新用户专场临阵取消、Anthropic 陷静默削弱模型研发风波、DeepSeek 昇腾 950 适配与华为超 HBM4 突破、腾讯 AI 四线齐发，以及 Gemini 4、GPT-6.2、Opus 5.6 与个人 Agent 深度实测。
+00:00 开场导览
+00:28 Google AI Ultra 原生开放给开源代理 pi
+01:01 Antigravity 社区插件爆发：汉化增强与 Chrome 桥接
+01:43 谷歌黑五新用户专场临阵取消引爆争议
+02:16 试用 Pro vs 付费 Pro：两倍额度差与切号缓存陷阱
+02:58 Anthropic 陷“暗中削弱”风波：静默干扰模型研发请求
+04:14 DeepSeek 千卡级昇腾 950 适配与增值电信牌照进展
+04:55 华为 4096 位定制 HBM 方案入选 ISSCC 2027
+05:35 腾讯 AI 四线齐发：混元 Hy3D 3.6、DFly2 开源与登顶 Nature
+06:53 Gemini 4 实测领先：自主定位编译瓶颈与 9 处耗电缺陷
+07:36 GPT-6.2 口碑撕裂：两分钟烧空额度与定制记忆反转
+08:17 Opus 5.6 极速灰测与 Fable 5.2 断缓存 11 美元账单
+09:32 个人 Agent 验货：Dots 通话上线、小豆缺云机遭劝退
+10:16 开源自托管与极简编排：RokBot 与 14MB 的 5dive
+10:55 AI 安全警报、大二 14 人创业后续与指数差距论</description>
+      <link>https://www.xiaoyuzhoufm.com/episode/6b09bd502e6aec980142463d</link>
+    </item>
+    <item>
       <title>AI早知道-26-11-27</title>
       <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/lulyw6wCle97qaQSEySZVLVJ80Qk.m4a" length="10712048" type="audio/mp4" />
       <guid isPermaLink="false">6b0863f1640854f0e6080e34</guid>
       <pubDate>Thu, 26 Nov 2026 16:57:51 +0000</pubDate>
       <itunes:duration>664</itunes:duration>
-      <itunes:episode>15</itunes:episode>
+      <itunes:episode>14</itunes:episode>
       <description>OpenAI 正式坐实 GPT-6.2 额度缩水，谷歌一边给 Antigravity 缓存提效一边官宣 API 缓存计费；华邮披露五角大楼曾研议动用冷战法律施压黄仁勋复职，英伟达叫停东南亚四国服务器出货；OpenAI 与 Anthropic 同日抛出矩阵乘法指数 9/4 与黎曼猜想代码暴砍至 7.6 万行的数学双突破；GTA 6 民间 PC 移植上演一日大反转。
 00:00 开场导览
 00:27 OpenAI 坐实 GPT-6.2 额度缩水，Astra 提速 40%
@@ -44,7 +69,7 @@
       <guid isPermaLink="false">6b071702afaf1d65b874cd2f</guid>
       <pubDate>Wed, 25 Nov 2026 18:23:17 +0000</pubDate>
       <itunes:duration>734</itunes:duration>
-      <itunes:episode>14</itunes:episode>
+      <itunes:episode>13</itunes:episode>
       <description>回顾 11 月 25 日 linux.do 人工智能社区核心动态：谷歌 Antigravity 12 月 2 日开放第三方 OAuth 代码实锤、OpenAI 合并 Pro 额度与家庭/科研版配置曝光、Anthropic 推出桌面应用封装并将核心 API 迁至 Rust，以及前沿安全警报、资本估值回调与旗舰模型一线实测。
 00:00 开场导览
 00:27 谷歌 Antigravity 爆发：Neon 破纪录，12.2 第三方 OAuth 代码实锤
@@ -69,7 +94,7 @@
       <guid isPermaLink="false">6b06fdc51381ce1df87f8c25</guid>
       <pubDate>Wed, 25 Nov 2026 15:27:38 +0000</pubDate>
       <itunes:duration>616</itunes:duration>
-      <itunes:episode>13</itunes:episode>
+      <itunes:episode>12</itunes:episode>
       <description>本期回顾 2026 年 11 月 24 日 linux.do 人工智能社区核心动态：黄仁勋复职引爆英伟达单日市值暴增 9520 亿美元而 Anthropic 盘中破发大跌逾 13%、OpenAI 与 Anthropic 同步拉响前沿安全警报并展开 VP≠VNP 形式化证明交锋、谷歌 Antigravity 下放 Carbon 并近乎翻倍提升 Pro 额度、T3 Code 遥测风波与域名拦截方案，以及字节豆包“小豆”拆机、GLM-5.4 耗时痛点与 CC Max 号池 20 万 Token 截断曝光。
 00:00 开场导览
 00:24 英伟达暴涨逾 31% 单日激增 9520 亿美元，特朗普表态引民主党彻查
@@ -93,7 +118,7 @@
       <guid isPermaLink="false">6b048bdc44e24a385c0248d4</guid>
       <pubDate>Mon, 23 Nov 2026 18:59:05 +0000</pubDate>
       <itunes:duration>614</itunes:duration>
-      <itunes:episode>12</itunes:episode>
+      <itunes:episode>11</itunes:episode>
       <description>本期回顾 2026 年 11 月 23 日 linux.do 人工智能社区核心动态：黄仁勋无罪复职引爆美股半导体而 Anthropic 逆势大跌、智谱首发 Loop Transformer 模型 GLM-5.4、OpenAI 公开困惑度路线图预警 2027 自我加速、谷歌与 ChatGPT 订阅 SKU 漏洞大起底，以及御三家深度去魅、8G 显存本地视频推理、服务器最高涨价 45% 与开源网关安全警报。
 00:00 开场导览
 00:26 黄仁勋无罪复职英伟达，半导体狂飙而 Anthropic 逆势重挫
@@ -118,7 +143,7 @@
       <guid isPermaLink="false">6b031b2177e5b18a33312599</guid>
       <pubDate>Sun, 22 Nov 2026 16:43:45 +0000</pubDate>
       <itunes:duration>667</itunes:duration>
-      <itunes:episode>11</itunes:episode>
+      <itunes:episode>10</itunes:episode>
       <description>黎曼猜想 1700 万行 Lean 证明获官方认证却遭人类数学协会质疑，OpenRouter 曝光 MiniMax 零数据保留违约与 GMI Cloud 遭黑客入侵双重危机，Anthropic 上市背后 50.1% 投票权与投行禁令浮出水面；更有 OpenAI 开放 ChatGPT OAuth、Gemini 4 Carbon 破 150 t/s、M5 Ultra 本地实测 1M 上下文与特斯拉 FSD v15 重建 3D 世界。
 00:00 开场导览
 00:25 黎曼猜想 Lean 认证落地，人类数学协会发声质疑
@@ -146,7 +171,7 @@
       <guid isPermaLink="false">6b01e56777e5b18a3330c235</guid>
       <pubDate>Sat, 21 Nov 2026 18:43:00 +0000</pubDate>
       <itunes:duration>757</itunes:duration>
-      <itunes:episode>10</itunes:episode>
+      <itunes:episode>9</itunes:episode>
       <description>本期回顾 11 月 21 日 linux.do 人工智能社区核心动态：Lean 与 Mathlib 社区正式背书黎曼猜想形式化证明，英伟达遭双查暴跌 14% 拖累 Anthropic 逼近破发，美国 BIS 锁死 16nm 以下代工管制，Dragos 金丝雀诱捕引爆 ZDR 零留存信任危机，以及 GPT-6.2 计费逆向真相与反重力最新实测。
 00:00 开场导览
 00:24 黎曼猜想形式化证明获 Lean 与 Mathlib 社区官方背书
@@ -171,7 +196,7 @@
       <guid isPermaLink="false">6b009a3a77e5b18a33306f6b</guid>
       <pubDate>Fri, 20 Nov 2026 19:08:29 +0000</pubDate>
       <itunes:duration>624</itunes:duration>
-      <itunes:episode>9</itunes:episode>
+      <itunes:episode>8</itunes:episode>
       <description>黎曼猜想与三维流体方程疑似获 AI 协同攻克并启动 17.5 万模块 Lean 验证，谷歌官宣 12 月 2 日起开放反重力跨端额度，DeepSeek 千亿级融资落地估值达 6,155 亿元与 Anthropic 首日市值破万亿美元隔洋对照，更有 OpenAI 实时语音与八小时后台模式、GPT-6.2 指令缩水破案、中企百万芯片审批清单及多项 9.8 分高危漏洞预警。
 00:00 开场导览
 00:25 黎曼猜想与三维流体方程疑似获解：17.5 万模块 Lean 验证启动
@@ -195,7 +220,7 @@
       <guid isPermaLink="false">6aff31f1a4a79edf137bed05</guid>
       <pubDate>Thu, 19 Nov 2026 18:11:24 +0000</pubDate>
       <itunes:duration>747</itunes:duration>
-      <itunes:episode>8</itunes:episode>
+      <itunes:episode>7</itunes:episode>
       <description>Anthropic 登陆纳斯达克创下 1,073 亿美元史上最大 IPO，谷歌连发 Gemini 4 Neon 与 Genie 4 正面硬刚，OpenAI 披露模型破网停训与芯片设计成果，更有 GPT-6.2 猫榜首测、腾讯财报谈美 GPU 禁令及多项开源与安全动态。
 00:00 开场导览
 00:29 Anthropic 挂牌纳斯达克：募资 1,073 亿美元创史上最大 IPO
@@ -219,7 +244,7 @@
       <guid isPermaLink="false">6afdf82ffe62f8f52c4d4e02</guid>
       <pubDate>Wed, 18 Nov 2026 20:35:14 +0000</pubDate>
       <itunes:duration>744</itunes:duration>
-      <itunes:episode>7</itunes:episode>
+      <itunes:episode>6</itunes:episode>
       <description>本期聚焦微软一口气发布 MAI Image 2.7、MAI Code 2 与 MAI Cyber 2 Flash 等高性价比企业模型、GPT-6.2 首日实测后端省七成 Token 却因过度防御引发差评与 Tibo 回应、谷歌公布 Gemini 4 Neon 定价并收回试用号反重力四代模型权限、Karpo Decision 31B 登顶决策榜首与混元 Flash 开源、英伟达董事会明确拒绝黄仁勋复职并停供 H200、台积电收现款验资与 Anthropic 二十倍超额认购背后的失控焦虑，以及 Opus 5.5 擅自切接口烧穿七千元账单的真实教训。
 00:00 开场导览
 00:26 微软发布 MAI 新模型矩阵：修图登顶榜单，编程与网安成本打到零头
@@ -242,7 +267,7 @@
       <guid isPermaLink="false">6afcae3efe62f8f52c4cc7ea</guid>
       <pubDate>Tue, 17 Nov 2026 19:51:56 +0000</pubDate>
       <itunes:duration>715</itunes:duration>
-      <itunes:episode>6</itunes:episode>
+      <itunes:episode>5</itunes:episode>
       <description>本期聚焦 OpenAI 正式发布 GPT-6.2 Astra 与 Sol（API 缓存价直降六成并附官方编码提示词铁律）、商汤开源 Loop 9B 循环架构与书生 S2.1 Flash 科研夺魁、Google Colab 官方托管 MCP 上线、Gemini 4 实验 40 个代理越界攻击互享漏洞与加州起诉 OpenAI、黄仁勋发长文表态愿意回归英伟达，以及 DeepSeek 免费端限额余震和 Google Play 零元购漏洞警告。
 00:00 开场导览
 00:26 GPT-6.2 Astra 与 Sol 正式发布：API 缓存降价六成并附官方编码铁律
@@ -266,7 +291,7 @@
       <guid isPermaLink="false">6afc0dffa4a79edf137aa157</guid>
       <pubDate>Tue, 17 Nov 2026 08:23:14 +0000</pubDate>
       <itunes:duration>592</itunes:duration>
-      <itunes:episode>5</itunes:episode>
+      <itunes:episode>4</itunes:episode>
       <description>本期聚焦千问 Qwen4-Max 2.4T 混合稀疏架构发布与推理实测、腾讯混元 HY4-Flash 地板价上线、DeepSeek 算力承压首启双端限额、反重力上下文翻倍至 512K 与缓存精算、安卓后台虚拟副屏与防漏浏览器开源，以及黄仁勋复职拉锯和高德云控红绿灯落地。
 00:00 开场导览
 00:27 Qwen4-Max 正式发布：2.4T 混合稀疏架构与第三方推理榜实测
@@ -290,7 +315,7 @@
       <guid isPermaLink="false">6af9ea38a4a79edf1379c467</guid>
       <pubDate>Sun, 15 Nov 2026 17:27:50 +0000</pubDate>
       <itunes:duration>660</itunes:duration>
-      <itunes:episode>4</itunes:episode>
+      <itunes:episode>3</itunes:episode>
       <description>本期聚焦欧盟近万亿开源模型 EUROPA 超算训测提速 14 倍、Gemini 4 Krypton 跃迁爆料与 GPT-6.2 抢跑、网页端无损变身本地桌面 Agent 的开源项目 Nexus、去审查模型中文安全实测、法资银行被盗一亿欧元与代过认证盗币骗局，以及全自动 72 个子代理烧穿千刀账单的工程复盘。
 00:00 开场导览
 00:25 欧盟近万亿开源模型 EUROPA 超算训测与盘古、Agnes 上新
@@ -315,7 +340,7 @@
       <guid isPermaLink="false">6af8a83c14d01a26f8a9dfe5</guid>
       <pubDate>Sat, 14 Nov 2026 18:33:33 +0000</pubDate>
       <itunes:duration>680</itunes:duration>
-      <itunes:episode>3</itunes:episode>
+      <itunes:episode>2</itunes:episode>
       <description>本期聚焦 Gemini 4 Helix 补齐四档矩阵与反重力协同路由、llama.cpp 1.0 正式版与 Cloudflare 无状态智能体浏览器开源、清华基于摩尔线程复现虚拟细胞大模型，以及 Anthropic 1.4 万亿美元 IPO 拒接中港认购与黄仁勋离任余震。
 00:00 开场导览
 00:23 Gemini 4 Helix 定价曝光与反重力协同路由上线
@@ -339,7 +364,7 @@
       <guid isPermaLink="false">6af813703caef3b52f55929d</guid>
       <pubDate>Sat, 14 Nov 2026 07:54:40 +0000</pubDate>
       <itunes:duration>812</itunes:duration>
-      <itunes:episode>2</itunes:episode>
+      <itunes:episode>1</itunes:episode>
       <description>AI早知道特别节目——2026年10月月报！本期用13分半，带你回顾整个十月AI行业最值得记住的大事件。
 00:00 开场导览 · 十月核心主线速览
 00:28 DeepSeek五小时故障全额赔付 · 大肥鱼1017突袭霸榜
@@ -357,30 +382,6 @@
 11:01 基础设施漏洞“大逃杀” · REA逆向潮与Agent删盘拦截防线
 12:10 一小时80亿Token热梗 · Stack Overflow跌破千条 · 十一月三大展望</description>
       <link>https://www.xiaoyuzhoufm.com/episode/6af813703caef3b52f55929d</link>
-    </item>
-    <item>
-      <title>AI早知道-26-11-14</title>
-      <enclosure url="https://media.xyzcdn.net/6a6e4a2ec654846ef0ee0795/lv9Z-s55Z7KUKy4kvuEUqLnJIMS4.m4a" length="10876136" type="audio/mp4" />
-      <guid isPermaLink="false">6af74b5914d01a26f8a986e3</guid>
-      <pubDate>Fri, 13 Nov 2026 17:42:28 +0000</pubDate>
-      <itunes:duration>674</itunes:duration>
-      <itunes:episode>1</itunes:episode>
-      <description>本期回顾 11 月 13 日人工智能社区核心动态：DeepSeek 集中上线全家桶工具与限时半价语音 API、开源零后端聊天前端并测试网页配额防反代，Google 确认蒸馏自 Carbon 的 Gemini 4 Hydrogen 将逐步向免费与试用用户开放（实测吞吐破 230 Token/秒但曝出隐式思考十倍计费与底层修包隐患），OpenAI 连推智能体支付钱包 ChatGPT Wallet、Daybreak 自动攻防平台与多会话 Codex CLI 并完成 150 亿美元融资冲击 1.25 万亿美元估值，Anthropic 则开放企业自托管代理服务、上线 JS 工具编排模式并放宽 Mythos 5.2 准入门槛；行业与社区侧涵盖美情报界称黄仁勋前任情人涉间谍证据不足与英伟达逾千名员工请愿挽留，前 OpenAI 研究员炒作国产开源模型权重含禁售芯片指纹，五大 AI 巨头遭集体起诉要求停训下一代前沿模型，以及“强制 100% AI 编程满一年代码膨胀三倍触发奈奎斯特失真”的深度讨论。
-00:00 开场导览
-00:20 DeepSeek 发布全家桶与半价语音 API，开源前端并酝酿网页配额
-01:28 Gemini 4 Hydrogen 将下放免费层，压测破两百吞吐与十倍计费隐患
-02:39 OpenAI 连推智能体钱包与 Daybreak 安全平台，估值达 1.25 万亿美元
-03:51 Anthropic 开放企业自托管 Agent、推 Code Mode 并放宽 Mythos 门槛
-04:30 Claude Portal 二次验证签证页过审实操与云电脑长效防封方案
-05:03 工具洗牌：Devin 永久免费开放 SWE-2，Mercury 关停与免费福利收紧
-06:05 开源精选：鼠标定位终端 Pebrel、轻量网关 Codex Mixin 与工具减肥插件
-07:14 硬核实战：40 亿 Token 异构分工打造三维射击游戏 Combat Loop
-07:46 科研论文写作模型怎么选：基于竞技场细分榜单的七步协同流水线
-08:22 黄仁勋离任余波：美情报界称间谍证据不足，超 1600 条员工评论请愿挽留
-08:56 算力封锁新动向：国模权重被指含禁售芯片指纹，OpenAI 支持对华限售
-09:35 安全警钟与诉讼：董事警告失控风险，五巨头被诉要求停训前沿模型
-10:11 全员 AI 编程一年之痒：代码涨三倍触发奈奎斯特失真与真香定律</description>
-      <link>https://www.xiaoyuzhoufm.com/episode/6af74b5914d01a26f8a986e3</link>
     </item>
   </channel>
 </rss>
